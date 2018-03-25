@@ -15,13 +15,10 @@ echo '<?xml version="1.0" encoding="UTF-8"?>
 <dict>
     <key>Label</key>
     <string>com.ngrok.onstartup</string>
-
     <key>Program</key>
         <string>/usr/local/bin/ngrok.sh</string>
-
     <key>KeepAlive</key>
         <true/>
-
 </dict>
 </plist>' > /Library/LaunchDaemons/com.ngrok.onstartup.plist
 bash /usr/local/bin/ngrok.sh
